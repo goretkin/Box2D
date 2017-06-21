@@ -8,6 +8,18 @@ For help with Box2D, please visit http://www.box2d.org. There is a forum there w
 
 Please see `Building.txt` to learn how to build Box2D and run the testbed.
 
+## Building Dynamic Library
+
+```
+> cd repos/Box2D/Box2D
+> premake5 gmake
+
+> cd repos/Box2D/Box2D/Build/gmake
+> make
+```
+
+Library will be at `repos/Box2D/Box2D/Build/gmake/bin/Debug/libBox2Ddyn.dylib`
+
 ## Demos
 
 To run the demos, set `Testbed` as your startup project and press <kbd>F5</kbd>. Some test bed commands are:
