@@ -28,6 +28,12 @@ project "Box2D"
 	files { "Box2D/**.h", "Box2D/**.cpp" }
 	includedirs { "." }
 
+project "Box2Ddyn"
+	kind "SharedLib"
+	language "C++"
+	files { "Box2D/**.h", "Box2D/**.cpp" }
+	includedirs { "." }
+
 project "GLEW"
 	kind "StaticLib"
 	language "C++"
